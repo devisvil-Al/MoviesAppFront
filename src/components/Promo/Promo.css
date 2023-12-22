@@ -1,0 +1,40 @@
+.promo {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 102px;
+    background: #511c47;
+    padding: 0 70px 0 70px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.promo__title {
+    box-sizing: border-box;
+    max-width: 626px;
+    height: 104px;
+    margin: 68px 0 0 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -1.6px;
+}
+
+.promo__image {
+    width: 350px;
+    height: 350px;
+    margin: 0 0 60px 0;
+    padding: 0;
+    background-image: url(../../images/image1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    align-self: flex-end;
+    box-sizing: border-box;
+}
+

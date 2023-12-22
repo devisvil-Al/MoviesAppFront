@@ -1,0 +1,78 @@
+.history {
+  padding: 70px 70px 80px 70px;
+  max-width: 1140px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.history__title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -1.6px;
+}
+
+.history__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  margin: 0;
+  padding: 50px 0 0 0;
+  text-decoration: none;
+}
+
+.history__item {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 30px;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.history__name {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  max-width: 50%;
+  color: #883278;
+  font-size: 20px;
+  font-weight: 400;
+  align-self: center;
+  cursor: pointer;
+  transition: opacity 0.4s ease-out;
+}
+
+.history__name:hover {
+  opacity: 0.7;
+}
+
+.history__delete {
+  background-size: contain;
+  background-image: url(../../images/button-close.svg);
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  outline: none;
+  background-color: transparent;
+  align-self: center;
+  transition: opacity 0.4s ease-out;
+}
+
+.history__delete:hover {
+  opacity: 0.7;
+}
